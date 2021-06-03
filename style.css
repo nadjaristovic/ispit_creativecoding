@@ -1,7 +1,54 @@
-html, body {
-  margin: 0;
-  padding: 0;
+html{
+	background-color: #141414;
+	color: gray;
+	text-align: center;
+	font-family: 'Space Mono', monospace;
+	position: static,;
 }
-canvas {
-  display: block;
+
+h1 {
+	text-align: center;
+	text-decoration-color: blue;
+}
+
+h2 {
+	margin-left: 15px;
+}
+
+tr {
+
+	font-size: 12px;
+}
+
+td {
+
+	width: 33.3%;
+}
+
+img {
+	width: 250px;
+	height: 250px;
+}
+ canvas {
+ 	z-index: -10;
+ 	position: absolute;
+ 	transform: translate(-960px, -980px);
+ 	width: 1600;
+ 	height: 900;
+ }
+a {
+	color: gray;
+	text-decoration: none;
+}
+a:link {
+	color: gray;
+}
+a: visited {
+	color: gray;
+}
+a: visited{
+	color: gray;
+}
+a: active {
+	color: gray;
 }
